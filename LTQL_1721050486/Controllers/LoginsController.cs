@@ -19,11 +19,11 @@ namespace LTQL_1721050486.Controllers
 
 
         [HttpPost]
-        public ActionResult Login(Login acc)
+        public ActionResult Login(Login login)
         {
-            if (acc.UserName == "Admin" && acc.Password == "123456")
+            if (login.UserName == "Admin" && login.Password == "123456")
             {
-                FormsAuthentication.SetAuthCookie(acc.UserName, true);
+                FormsAuthentication.SetAuthCookie(login.UserName, true);
                 return RedirectToAction("About", "Home");
             }
             return View();

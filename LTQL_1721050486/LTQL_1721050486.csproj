@@ -135,6 +135,19 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202112210614486_InitialCreate.cs" />
+    <Compile Include="Migrations\202112210614486_InitialCreate.Designer.cs">
+      <DependentUpon>202112210614486_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202112210637086_create_table_LopHoc486.cs" />
+    <Compile Include="Migrations\202112210637086_create_table_LopHoc486.Designer.cs">
+      <DependentUpon>202112210637086_create_table_LopHoc486.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202112210640247_create_table_Sinhvien486.cs" />
+    <Compile Include="Migrations\202112210640247_create_table_Sinhvien486.Designer.cs">
+      <DependentUpon>202112210640247_create_table_Sinhvien486.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\DDTSinhVien486.cs" />
     <Compile Include="Models\Login.cs" />
     <Compile Include="Models\LopHoc486.cs" />
@@ -203,6 +216,17 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202112210614486_InitialCreate.resx">
+      <DependentUpon>202112210614486_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202112210637086_create_table_LopHoc486.resx">
+      <DependentUpon>202112210637086_create_table_LopHoc486.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202112210640247_create_table_Sinhvien486.resx">
+      <DependentUpon>202112210640247_create_table_Sinhvien486.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

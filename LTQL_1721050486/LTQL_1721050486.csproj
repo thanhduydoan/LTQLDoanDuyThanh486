@@ -130,11 +130,13 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\DDTSinhVien486Controller.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LoginsController.cs" />
     <Compile Include="Controllers\LopHoc486Controller.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\DDTSinhVien486.cs" />
+    <Compile Include="Models\Login.cs" />
     <Compile Include="Models\LopHoc486.cs" />
     <Compile Include="Models\LTQLDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -185,6 +187,11 @@
     <Content Include="Views\DDTSinhVien486\Details.cshtml" />
     <Content Include="Views\DDTSinhVien486\Edit.cshtml" />
     <Content Include="Views\DDTSinhVien486\Index.cshtml" />
+    <Content Include="Views\Logins\Create.cshtml" />
+    <Content Include="Views\Logins\Delete.cshtml" />
+    <Content Include="Views\Logins\Details.cshtml" />
+    <Content Include="Views\Logins\Edit.cshtml" />
+    <Content Include="Views\Logins\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

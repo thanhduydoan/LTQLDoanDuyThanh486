@@ -12,13 +12,13 @@ namespace LTQL_1721050486.Models
         {
         }
 
+        public System.Data.Entity.DbSet<LTQL_1721050486.Models.LopHoc486> LopHoc486 { get; set; }
 
+        public System.Data.Entity.DbSet<LTQL_1721050486.Models.DDTSinhVien486> DDTSinhVien486 { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
         }
 
-        public System.Data.Entity.DbSet<LTQL_1721050486.Models.LopHoc486> LopHoc486 { get; set; }
-
-        public System.Data.Entity.DbSet<LTQL_1721050486.Models.DDTSinhVien486> DDTSinhVien486 { get; set; }
+        public System.Data.Entity.DbSet<LTQL_1721050486.Models.Login> Logins { get; set; }
     }
 }

@@ -128,6 +128,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\DDTSinhVien486Controller.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LopHoc486Controller.cs" />
     <Compile Include="Global.asax.cs">
@@ -179,6 +180,11 @@
     <Content Include="Views\LopHoc486\Details.cshtml" />
     <Content Include="Views\LopHoc486\Edit.cshtml" />
     <Content Include="Views\LopHoc486\Index.cshtml" />
+    <Content Include="Views\DDTSinhVien486\Create.cshtml" />
+    <Content Include="Views\DDTSinhVien486\Delete.cshtml" />
+    <Content Include="Views\DDTSinhVien486\Details.cshtml" />
+    <Content Include="Views\DDTSinhVien486\Edit.cshtml" />
+    <Content Include="Views\DDTSinhVien486\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

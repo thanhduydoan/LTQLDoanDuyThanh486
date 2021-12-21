@@ -16,5 +16,7 @@ namespace LTQL_1721050486.Models
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
         }
+
+        public System.Data.Entity.DbSet<LTQL_1721050486.Models.LopHoc486> LopHoc486 { get; set; }
     }
 }

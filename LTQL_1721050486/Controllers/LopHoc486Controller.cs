@@ -12,7 +12,7 @@ namespace LTQL_1721050486.Controllers
 {
     public class LopHoc486Controller : Controller
     {
-        private Model1 db = new Model1();
+        private LTQLDbContext db = new LTQLDbContext();
 
         // GET: LopHoc486
         public ActionResult Index()

@@ -5,9 +5,9 @@ using System.Linq;
 
 namespace LTQL_1721050486.Models
 {
-    public partial class Model1 : DbContext
+    public partial class LTQLDbContext : DbContext
     {
-        public Model1()
+        public LTQLDbContext()
             : base("name=LTQLDb")
         {
         }
